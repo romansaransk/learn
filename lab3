@@ -1,0 +1,60 @@
+import java.util.Scanner;
+public class wer {
+	static void equation(double a,double b,double c)
+	{double  discriminant,x1,x2;
+		
+		discriminant = b*b - 4*a*c;
+    if(discriminant < 0){
+        System.out.println("нет действительных корней");
+    }
+    if (discriminant > 0){
+        x1 = (-b + discriminant)/2*a;
+        x2 = (-b - discriminant)/2*a;
+        System.out.println("X1 = "+x1 +", X2 = " + x2 );
+    }
+    if(discriminant == 0){
+    	x1 = (-b + discriminant)/2*a;
+        System.out.println("x1 = x2 = "+ x1);
+    }
+		}
+	
+	
+	
+    public static void main(String[] args) {
+        double a=0,b=0,c=0;
+        Scanner in = new Scanner(System.in);
+        System.out.println("Решение квадратного уравнения типа ax^2 + bx + c");
+        	System.out.println("Введите значение а = ");
+        	if (in.hasNextDouble()){
+        		a = in.nextDouble();
+        		 if (a == 0){
+        	            System.out.println("a не должен быть равен нулю"); 
+        	            System.exit(0);
+        	        }	     			
+        	}
+        	else
+        	{System.out.println("a должно быть числом");
+        	System.exit(0);
+        	}
+
+        System.out.println("Введите значение b =");
+
+        	if (in.hasNextDouble()){
+        		b = in.nextDouble(); 					
+        	}
+        	else
+        	{System.out.println("b должно быть числом");
+        	System.exit(0);}
+            
+        System.out.println("Введите значение c =");
+
+        	if (in.hasNextDouble()){
+        		c = in.nextDouble();	 			
+        	}
+        	else
+        	{System.out.println("c должно быть числом");
+        	System.exit(0);}
+       equation(a,b,c);  
+    }
+    
+}
