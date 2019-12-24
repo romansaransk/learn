@@ -4,15 +4,20 @@ public class wer {
 	{double  discriminant,x1,x2;
 		
 		discriminant = b*b - 4*a*c;
-    if(discriminant < 0){
+	
+	if(a == 0){
+		x1 = (double) -c / b; 	
+		        System.out.println("x1"+ x1);
+		    }
+	else if(discriminant < 0){
         System.out.println("нет действительных корней");
     }
-    if (discriminant > 0){
+	else if (discriminant > 0){
         x1 = (-b + discriminant)/2*a;
         x2 = (-b - discriminant)/2*a;
         System.out.println("X1 = "+x1 +", X2 = " + x2 );
     }
-    if(discriminant == 0){
+	else if(discriminant == 0){
     	x1 = (-b + discriminant)/2*a;
         System.out.println("x1 = x2 = "+ x1);
     }
@@ -27,10 +32,7 @@ public class wer {
         	System.out.println("Введите значение а = ");
         	if (in.hasNextDouble()){
         		a = in.nextDouble();
-        		 if (a == 0){
-        	            System.out.println("a не должен быть равен нулю"); 
-        	            System.exit(0);
-        	        }	     			
+        		     			
         	}
         	else
         	{System.out.println("a должно быть числом");
