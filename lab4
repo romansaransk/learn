@@ -28,7 +28,7 @@ public class linkedLIst {
 			Temp.addLast(a);
 			Temp.removeFirst();
 		}
-		TempSort =Temp;
+		TempSort = (LinkedList<Integer>)Temp.clone();
 		Collections.sort(TempSort);
 		median=TempSort.size()%2==0
 				?((float)TempSort.get(TempSort.size()/2)+TempSort.get(TempSort.size()/2-1))/2
