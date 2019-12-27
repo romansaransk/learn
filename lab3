@@ -32,6 +32,7 @@ public class wer {
         	System.out.println("Введите значение а = ");
         	if (in.hasNextDouble()){
         		a = in.nextDouble();
+			
         		     			
         	}
         	else
