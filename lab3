@@ -33,7 +33,10 @@ public class wer {
         	if (in.hasNextDouble()){
         		a = in.nextDouble();
 			
-        		     			
+        		 
+			 
+			 
+			 
         	}
         	else
         	{System.out.println("a должно быть числом");
