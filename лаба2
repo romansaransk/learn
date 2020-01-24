@@ -1,0 +1,640 @@
+1 урок 
+Главная.Ява
+публичный класс Main {
+	/**
+* $param args
+*/
+public static void main (String []args){
+Система. из. println ("Hello world");
+Система.из.печать ("Привет");
+}	
+}
+
+2 урок 
+Главная.Ява
+публичный класс Main {
+	/**
+* $param args
+*/
+public static void main (String []args){
+Система. из. println ("Здравствуй мир!");
+}	
+}
+Главная.Ява
+пакет упаковки;
+публичный класс Main {
+ public static void main (String []args){
+Система. из. println ("главное!");
+}	
+}
+Привет.Ява
+пакет Package.пак2.pack3;
+общественный класс Привет {
+ public static void main (String []args){
+Система. из. println ("Привет!");
+}	
+}
+
+
+
+
+
+
+3 урок
+Главная.Ява
+публичный класс Main (
+
+	/**
+ * $param args
+	*/
+public static void main (String []args){ 
+Система.из.println ("Здравствуй мир!");
+
+ int a = 10;
+ int b = 3;
+ int res = a / b;
+
+ Система.из.println (res);
+	}
+}
+4 урок 
+Главная.Ява
+публичный класс Main (
+
+	/**
+ * $param args
+	*/
+public static void main (String []args){ 
+Система.из.println ("Здравствуй мир!");
+
+ int a = 2;
+ int b = 98;
+ int c = 78;
+
+ double res = (((double) (a+ b + c) / 3) + 1)/(a+b);
+
+ Система.из.println (res);
+	}
+}
+
+
+
+
+
+
+
+
+5 урок 
+Главная.Ява
+публичный класс Main (
+
+public static void main (String []args){ 
+
+ int a = 2;
+ int b = 3;
+ int res = ((a + b++ - --a) * (++b-a--)) + a + b-a-- + ++a;
+
+ Система.из.println ("res:" + res);
+	}
+}
+6 урок 
+Главная.Ява
+публичный класс Main (
+
+public static void main (String []args){ 
+
+ int a = -1;
+ int b = 98;
+ int с = 0;
+
+ логический флаг = ((c < b+5) & & (b > 100) & & (a !=0)) | | ((a + b-c) (a > 0);
+
+ Система.из.println (флаг);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+7 урок Оператор условия if
+Главная.Ява
+публичный класс Main (
+
+public static void main (String []args){ 
+
+ int c = 5;
+ int b = 10;
+
+ if ((b >= c) && (с != 0)) {
+		
+
+		}
+}
+}
+8 урок 
+Главная.java Оператор if блок else 
+публичный класс Main (
+
+public static void main (String []args){ 
+
+ int c = 15;
+ int b = 10;
+
+ if ((b >= c) && (с != 0)) {
+ Система.из.println ("да ”);
+ }еще{
+ Система.из.println ("нет ”);
+		}
+
+}
+}
+
+
+
+
+
+
+
+
+
+9 урок
+Главная.java Арифметические операции с присваиванием
+публичный класс Main (
+
+public static void main (String []args){ 
+
+/*
+
+		+=
+		*=
+		/=
+		-=
+		%=
+
+ x += y; = > x = x + y;
+*/
+
+double а = 9;
+двойной b = 10;
+двойной c = 5;
+а += b;
+а %= 4;
+а /= (с + 1)/2 + а;
+а -= 0.5;
+а -= 0.5;
+а -= 0.5;
+а -= 0.5;
+а -= 0.5;
+а -= 0.5;
+Система.из.println (“a: "+ a);
+}
+}
+	
+
+	
+
+
+
+
+
+10 урок
+Главная.java Оператор цикла for
+публичный класс Main {
+	
+ public static void main (String[] args) {
+
+		/*
+
+ for (инициализация; условие; шаг) {
+ //Тело цикла
+		}
+
+		*/
+
+ int count = -1;
+int sum = 0;
+для (int i = -10; i ){
+ если ((i % 3) = = 0){
+ Система.из.println(i);
+ рассчитывать++;
+		}
+ если (((кол-во % 2) == 0) && ((i %3) = = 0)){
+ сумма += i;
+
+		}
+	}
+
+Система.из.println ("sum:" + sum);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11 урок 
+Главная.java Оператор цикла while
+публичный класс Main {
+	
+ public static void main (String[] args) {
+
+		/*
+
+ while (условие) {
+ //Тело цикла
+		}
+
+		*/
+int sum = 0;
+int count = 0;
+int i = -100;
+
+в то время как(я ){
+если(i % 4) = = 0){
+сумма += il;
+рассчитывать++;
+}
+я++;
+	}
+
+double evg = (двойная)сумма / количество;
+Система.из.println ("evg:" + evg);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+12 урок
+Главная.java Оператор цикла do…while
+публичный класс Main {
+	
+ public static void main (String[] args) {
+
+		/*
+
+ делать {
+ //тело цикла
+ }while (условие);
+
+		* */
+int i = 0;
+int sum = 0;
+
+делать{
+ сумма +=I;
+ i+=2;
+}в то время как (i );
+
+Система.из.println ("sum:" + sum);
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13 урок 
+Главная.java Одномерные массивы
+публичный класс Main {
+	
+ public static void main (String[] args) {
+
+		/*
+
+ тип имя_mac[] = new тип[РАЗМЕР];
+ тип []имя_mac = new тип[РАЗМЕР];
+ тип[] имя_mac = new тип[РАЗМЕР];
+
+		*/
+ int mas[] = новый int[10];
+
+ для(int i = 0; i длина; i++){
+ mas[i] = (int)Math.раунд (математика.случайный ()*100);
+	System.out.println (mas[i] +  ” “);
+}
+Система.из.println();
+
+int min = mas[0];
+int n = 32;
+ибо (int i = 1; I длина; i++){
+ если (мин ]){
+ min = mas[i];
+	}
+}
+Система.из.println ("min:" + min);
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14 урок 
+Главная.cpp Двумерные массивы
+публичный класс Main {
+	
+ public static void main (String[] args) {
+
+		/*
+
+ тип имя_mac [] []= new тип[РАЗМЕР][РАЗМЕР];
+		
+*/
+ int mas[][] = новый int[5][5];
+
+ int min = -4;
+ int max = 4;
+
+ для(int i = 0; i длина; i++){
+ для(int j = 0; j длина; j++){
+ mas[i][j] = (int)математика.раунд (математика.random ()*((max-min) + i)));
+ Система.из.println (mas[i][j] + ” “);
+}
+Система.из.println();
+}
+
+int count = 0;
+ибо (int i = 1; i длина; i++){
+ для(int j = 1; j длина; j++){
+ если(mas[i][j] = = 0){
+ рассчитывать++;
+ j = mas[i].длина; 
+		}
+}
+}
+Система.из.println ("count:" + count);
+}
+
+
+
+
+
+
+
+
+
+15 урок
+Main.java Трехмерные и многомерные массивы
+public class Main {
+	
+	public static void main(String[] args) {
+
+		/*
+
+			тип имя_mac [] [] []= new тип[РАЗМЕР] [РАЗМЕР] [РАЗМЕР][РАЗМЕР];
+		
+*/
+		int [][][][]mas = new int[5][5][5][7];
+
+		int sum = 0;
+		for(int i = 0; i < mas.lenght; i++){
+			for(int j = 0; j < mas.lenght; j++){
+for(int k = 0; k < mas.lenght; k++){
+					for(int m = 0; m < mas.lenght; m++){
+						mas[i][j] [k][m] = i + j + k + m;
+						sum += mas[i][j] [k][m];
+}
+				}
+			}
+}
+
+System.out.println (“sum: ” +  sum);
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+16 урок 
+Главная.java Массивы причудливой формы
+публичный класс Main {
+	
+ public static void main (String[] args) {
+
+ int [] [] mas = новый int [20][];
+
+ для(int i = 0; i длина; i++){
+ mas[i] = новый int [i+1];
+ для(int j = 0; j длина; j++){
+ mas[i] [j] = 1;
+			}
+		}
+
+для(int i = 0; i длина; i++){
+ для(int j = 0; j длина; j++){
+ Система.из.println (mas[i][j] + “ “);
+}
+ Система.из.println()
+		}
+
+	}
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17 урок
+Главная.cpp Оператор цикла for each
+публичный класс Main {
+	
+ public static void main (String[] args) {
+
+		/*
+
+ for (объявление; массив/коллекция) {
+ //Тело цикла
+			}
+
+		*/
+
+int [] [] mas = новый int [10][8];
+
+для(int i = 0; i длина; i++) { for(int j = 0; j длина; j++){
+ mas[i][j] = i + j;
+		}
+	}
+
+для (int []m; mas){
+ для(int mm; m){
+ Система.из.println (мм + “ “);
+	}
+ Система.из.println();
+}
+
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+18 урок 
+Главная.cpp Оператор безусловного перехода break
+публичный класс Main {
+	
+ public static void main (String[] args) {
+
+		/*
+
+ ломать;
+
+		*/
+
+ метка: for(int i = 0; i ){
+ для(int j = 0; j ){
+ если (j > 5)сломать метку;
+ Система.из.println(j);
+      }
+}
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19 урок
+Главная.java Оператор ветвления switch
+публичный класс Main {
+	
+ public static void main (String[] args) {
+	
+ двойное а = 3,0;
+ двойной b = 4,0;
+ оператор char=' - ’;
+
+ двойной результат = 0,0;
+
+ переключатель (оператор){
+ случай'+': результат = a + b; перерыв;
+ случай‘ -’: результат = a-b; перерыв;
+ случай‘*': результат = a * b; перерыв;
+ case'/’: result = a/ b; break;
+ case'%': result = a % b; break;
+ по умолчанию: result = Double.бабушка;
+	}
+
+ Система.из.println (a + String.valueOf (оператор) + b + " = " + результат);
+}
+
+
+	
+20 урок 
+Главная.java Оператор безусловного перехода continue
+публичный класс Main {
+	
+ public static void main (String[] args) {
+
+		/*
+
+		continue;
+
+		*/
+
+		label: for(int i = 0; i < 100; i++){
+		     for(int j = 0; j < 100; j++){
+			if(j > 5)continue label;
+		System.out.println(j);
+      }
+    	      System.out.println(“aaaaaaaaaaa”);
+}
+
+}
+}
